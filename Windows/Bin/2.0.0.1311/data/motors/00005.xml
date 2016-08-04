@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<motor xmlns="http://schemas.sensehobby.com/rcplus/2014">
+  <id>5</id>
+  <name>GemFan RT2205-2300KV</name>
+  <brand>GemFan</brand>
+  <model>RT2205-2300KV</model>
+  <kv>2300</kv>
+  <configuration>12N14P</configuration>
+  <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/a336bf4e-0808-4bef-980c-a63500eed8f7</supportedUrl>
+  <description>
+    Stator Diameter: 22mm
+    Stator Length: 5mm
+    Shaft Diameter: 4mm
+    Motor: 27.5x34.35mm
+    Idle current: 0.6
+    Max continue Power: 495
+    Weight: 30g
+  </description>
+  <settings>
+    <setting id="LogLevel">3</setting>
+  </settings>
+</motor>

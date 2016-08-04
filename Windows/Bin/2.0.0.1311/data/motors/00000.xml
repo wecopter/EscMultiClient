@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<motor id="1" xmlns="http://schemas.sensehobby.com/rcplus/2014">
+  <id>1</id>
+  <name>General Motor</name>
+  <brand>-</brand>
+  <model>General</model>
+  <kv>2100-4000</kv>
+  <configuration>-</configuration>
+  <supportedUrl></supportedUrl>
+  <description>Parameters optimization for General motor.</description>
+  <settings>
+    <setting id="LogLevel">3</setting>
+  </settings>
+</motor>

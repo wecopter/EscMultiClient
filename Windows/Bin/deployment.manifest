@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+    <assemblyIdentity name="EscMulti.application" version="2.0.0.1311" publicKeyToken="d50d2030838779a4" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+    <description asmv2:publisher="Sense Innovations Limited" co.v1:suiteName="RCPlus" asmv2:product="EscMulti" asmv2:supportUrl="http://www.sensehobby.com/escmulti" xmlns="urn:schemas-microsoft-com:asm.v1" />
+    <deployment install="true" mapFileExtensions="true" trustURLParameters="true" co.v1:createDesktopShortcut="true">
+        <subscription>
+            <update>
+                <expiration maximumAge="0" unit="days" />
+            </update>
+        </subscription>
+        <deploymentProvider codebase="http://update.sensehobby.com/escmulti/EscMulti.application" />
+    </deployment>
+    <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+        <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+    </compatibleFrameworks>
+    <dependency>
+        <dependentAssembly dependencyType="Install" codebase="2.0.0.1311\application.manifest" size="32352">
+            <assemblyIdentity name="EscMulti.exe" version="2.0.0.1311" publicKeyToken="d50d2030838779a4" language="neutral" processorArchitecture="x86" type="win32" />
+            <hash>
+                <dsig:Transforms>
+                    <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+                </dsig:Transforms>
+                <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <dsig:DigestValue>2zW7WC3LdzCdX1LoRA+RpfZv8ko=</dsig:DigestValue>
+            </hash>
+        </dependentAssembly>
+    </dependency>
+    <publisherIdentity name="CN=Sense Innovations Limited, E=supports@sensehobby.com, O=Sense Innovations Limited, L=Tortola, S=British Virgin Islands, C=GB" issuerKeyHash="ae9418ae183bedfc76ee3a955573f8f4b8842e01" />
+    <Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <DigestValue>JsCkOJTZY7soUp5wpAtZk/q18/c=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>Nmaupn1xJ9XQ7VU+rAYQY35J/3ei7rPG7Ui4LWOZttY1tc068pY2tQ7HLISXwy0unYrWJ0W8PCecgkz79xLruxTmbBVzQLU23PTa9oULnjeJkWBZxs930Zf50e/0kv57AGiIXX5dYnSo57qjOKTm2bF4BJVdfgYD1atrJF5WDkPUH3kN9tOn4NUak0oP8u58c6pS1J6GNFZiOd3S6zESNy4egV1igaH1XRX9JvsosA9MC5gKC0gRgbd99DG7qtffdEe2zmZPQr/RTgPhMPTjvH73e7Twxd5azzePGO3PRnu59pScGa4tfFwXu62Vt6Pu9upoXQLVkd5ly5/dV2kARQ==</SignatureValue>
+        <KeyInfo Id="StrongNameKeyInfo">
+            <KeyValue>
+                <RSAKeyValue>
+                    <Modulus>18j0rq1qvkGSq67+6YbrhgAcpQ7wsvERU723vZSlm0rG+lLvIjViYS0899NIhO+1mdIAvewLilgdfpl921MOQ0Hw0Fr8F2WpR5doblkdE6n1rlj5mgQtdsF18yGjpSZtoKLl7Njo9H661jX7boItWMvvTtMB2bzIq0fJr6Ja0yXE8KWGeJ3P5GpW/VjGI9sVS00yAOrwsrhYJ7yk3k1Dk79ljllOECsnhzhiDVpp5q5YEVeZnlklnekIq8N9qEnBlzMzrwxHDOHshh4Wm2WcW+Ilt2gTTRn28sMXIvoLy5hWqKeQKFaJMlvv54uOZ+hGs5ipAyBi36bnvPjWcrtwvw==</Modulus>
+                    <Exponent>AQAB</Exponent>
+                </RSAKeyValue>
+            </KeyValue>
+            <msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata">
+                <r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode">
+                    <r:grant>
+                        <as:ManifestInformation Hash="f7f3b5fa93590ba4709e5228bb63d99438a4c026" Description="" Url="">
+                            <as:assemblyIdentity name="EscMulti.application" version="2.0.0.1311" publicKeyToken="d50d2030838779a4" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+                        </as:ManifestInformation>
+                        <as:SignedBy />
+                        <as:AuthenticodePublisher>
+                            <as:X509SubjectName>CN=Sense Innovations Limited, E=supports@sensehobby.com, O=Sense Innovations Limited, L=Tortola, S=British Virgin Islands, C=GB</as:X509SubjectName>
+                        </as:AuthenticodePublisher>
+                    </r:grant>
+                    <r:issuer>
+                        <Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+                            <SignedInfo>
+                                <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                                <Reference URI="">
+                                    <Transforms>
+                                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                                        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                    </Transforms>
+                                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                                    <DigestValue>J4Rvc/F2ZmY+QH74Cj96r6y+Fz0=</DigestValue>
+                                </Reference>
+                            </SignedInfo>
+                            <SignatureValue>hzPUiTRrmQFrV9riKEg9li1dJ2XteXnxeSeeN5jY3K/rnRJdVhddz3oHMB+g9aG/qa0aozJP52hwgrWSsYnE3r/LgNnLxmpF4feRDm0azMq7JPqbFmu/M+2KP6hD/VgwKCJeKifjXsqIub56r0ckAst69nmhZ228WXvbHeeYYb9+vUF8ksQPgDE1RMy8ZyNBCuqYBusSg8hSwPWGgpgPEiWR1J1cYSLspfbVK7pVLDnaZDK+megy3P6n2BjkwGzBAztn64MHaW5GVNtso5pudBodZFS+ByK43fFBezwDtwT9UtZtBMP7VeN0G7UcrNrl2ehDCx+nHCvCDQ5bGirNNA==</SignatureValue>
+                            <KeyInfo>
+                                <KeyValue>
+                                    <RSAKeyValue>
+                                        <Modulus>18j0rq1qvkGSq67+6YbrhgAcpQ7wsvERU723vZSlm0rG+lLvIjViYS0899NIhO+1mdIAvewLilgdfpl921MOQ0Hw0Fr8F2WpR5doblkdE6n1rlj5mgQtdsF18yGjpSZtoKLl7Njo9H661jX7boItWMvvTtMB2bzIq0fJr6Ja0yXE8KWGeJ3P5GpW/VjGI9sVS00yAOrwsrhYJ7yk3k1Dk79ljllOECsnhzhiDVpp5q5YEVeZnlklnekIq8N9qEnBlzMzrwxHDOHshh4Wm2WcW+Ilt2gTTRn28sMXIvoLy5hWqKeQKFaJMlvv54uOZ+hGs5ipAyBi36bnvPjWcrtwvw==</Modulus>
+                                        <Exponent>AQAB</Exponent>
+                                    </RSAKeyValue>
+                                </KeyValue>
+                                <X509Data>
+                                    <X509Certificate>MIIFDDCCA/SgAwIBAgIQXcIGW+3ZuAGL+pizb9SeoTANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwJDTjEaMBgGA1UEChMRV29TaWduIENBIExpbWl0ZWQxKjAoBgNVBAMTIVdvU2lnbiBDbGFzcyAzIENvZGUgU2lnbmluZyBDQSBHMjAeFw0xNjA0MjgxMTI3MTVaFw0xNzA1MjgxMTI3MTVaMIGwMQswCQYDVQQGEwJHQjEfMB0GA1UECAwWQnJpdGlzaCBWaXJnaW4gSXNsYW5kczEQMA4GA1UEBwwHVG9ydG9sYTEiMCAGA1UECgwZU2Vuc2UgSW5ub3ZhdGlvbnMgTGltaXRlZDEmMCQGCSqGSIb3DQEJARYXc3VwcG9ydHNAc2Vuc2Vob2JieS5jb20xIjAgBgNVBAMMGVNlbnNlIElubm92YXRpb25zIExpbWl0ZWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXyPSurWq+QZKrrv7phuuGABylDvCy8RFTvbe9lKWbSsb6Uu8iNWJhLTz300iE77WZ0gC97AuKWB1+mX3bUw5DQfDQWvwXZalHl2huWR0TqfWuWPmaBC12wXXzIaOlJm2gouXs2Oj0frrWNftugi1Yy+9O0wHZvMirR8mvolrTJcTwpYZ4nc/kalb9WMYj2xVLTTIA6vCyuFgnvKTeTUOTv2WOWU4QKyeHOGINWmnmrlgRV5meWSWd6Qirw32oScGXMzOvDEcM4eyGHhabZZxb4iW3aBNNGfbywxci+gvLmFaop5AoVokyW+/ni45n6EazmKkDIGLfpue8+NZyu3C/AgMBAAGjggF6MIIBdjAOBgNVHQ8BAf8EBAMCB4AwHwYDVR0lBBgwFgYIKwYBBQUHAwMGCisGAQQBgjc9AQEwCQYDVR0TBAIwADAdBgNVHQ4EFgQUpc6hPahx1j5agrfafjYcFGKoop4wHwYDVR0jBBgwFoAUrpQYrhg77fx27jqVVXP49LiELgEwbwYIKwYBBQUHAQEEYzBhMC0GCCsGAQUFBzABhiFodHRwOi8vb2NzcDEud29zaWduLmNvbS9jYTYvY29kZTMwMAYIKwYBBQUHMAKGJGh0dHA6Ly9haWExLndvc2lnbi5jb20vY2E2LmNvZGUzLmNlcjA2BgNVHR8ELzAtMCugKaAnhiVodHRwOi8vY3JsczEud29zaWduLmNvbS9jYTYtY29kZTMuY3JsME8GA1UdIARIMEYwCAYGZ4EMAQQBMDoGCysGAQQBgptRAQECMCswKQYIKwYBBQUHAgEWHWh0dHA6Ly93d3cud29zaWduLmNvbS9wb2xpY3kvMA0GCSqGSIb3DQEBCwUAA4IBAQBnXqo4NaIPbilCTw8GhinwcWsBp2ck8mBBp/b/BcA8KLiYn+aCwrs8FuLBQzXomQ1fAKnMgFFvL/ZdXbX/2+VJC2aUlR1er/fsKB9MEzDWlsHAZifKw+JlKf2TzdCBCKSzPLurDnuQdMuamYVHSSuSq7vqfBXI5E9PpTQdhLWADX0BhAETVf8+J6XrWY4s8vxMN6myVkQ8FZviFvMP489eed+07w1qhkbpFojmQedjsZiFa3Lq1BP51RIkwNVL0di/edM6jEtDboLoc48ua+wz6wmP7UwM4aMJvxV8Uvd/2cDQFyKlXAS/IpXj7q9mnpTnFiIL2LMqcfEK8Xs8Yk8r</X509Certificate>
+                                    <X509Certificate>MIIFpjCCA46gAwIBAgIQN6YOkl8j+Az9zZdlkpjDVDANBgkqhkiG9w0BAQsFADBVMQswCQYDVQQGEwJDTjEaMBgGA1UEChMRV29TaWduIENBIExpbWl0ZWQxKjAoBgNVBAMTIUNlcnRpZmljYXRpb24gQXV0aG9yaXR5IG9mIFdvU2lnbjAeFw0xNDExMDgwMDU4NThaFw0yOTExMDgwMDU4NThaMFUxCzAJBgNVBAYTAkNOMRowGAYDVQQKExFXb1NpZ24gQ0EgTGltaXRlZDEqMCgGA1UEAxMhV29TaWduIENsYXNzIDMgQ29kZSBTaWduaW5nIENBIEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnTPiqtoo8PAxm7o0x1LVopl0MNVULXYN60LheN8/nE/0xvmdu6Skvyy3Zgn0jA0xMlOurv2nMLAmO7sD3aHT/fpUGc4mLdTOQdi4UEsbWkTDPslHXqAO6x5I98rFAS+PoyvKcfrkTH/t/00xCRt0QpeYa+l/Pe87A1GZ57tsFXE8V7cZO1S7AvkD8aG4FyWINIiHRWlYSrJiqVw3fx08mVSMCPkZBNqFJbm+ymH2AFdA1jr07Gmy42YFuTz0MwU/PtNGRO/o42/ZNTzx0ox77ZAc49Ix5IV/r27umkBgo0doYm+q+K2epO71tzLetl15VBikWBgLAh82oRyQ1wEgjQIDAQABo4IBcDCCAWwwDgYDVR0PAQH/BAQDAgEGMB8GA1UdJQQYMBYGCCsGAQUFBwMDBgorBgEEAYI3AgEWMBIGA1UdEwEB/wQIMAYBAf8CAQAwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL2NybHMxLndvc2lnbi5jb20vY2ExLmNybDBrBggrBgEFBQcBAQRfMF0wJwYIKwYBBQUHMAGGG2h0dHA6Ly9vY3NwMS53b3NpZ24uY29tL2NhMTAyBggrBgEFBQcwAoYmaHR0cDovL2FpYTEud29zaWduLmNvbS9jYTFnMi1jb2RlMy5jZXIwHQYDVR0OBBYEFK6UGK4YO+38du46lVVz+PS4hC4BMB8GA1UdIwQYMBaAFOFmzw7R8bNLtwYgFP6HEtX2/vs+MEYGA1UdIAQ/MD0wOwYMKwYBBAGCm1EGAwMBMCswKQYIKwYBBQUHAgEWHWh0dHA6Ly93d3cud29zaWduLmNvbS9wb2xpY3kvMA0GCSqGSIb3DQEBCwUAA4ICAQAciYl/40r6s3PZCpfqISKRRl+fb+sUxIQErmzmUzFU3MInsyUcUrn0iryoHx5cop5oIPKBcvEoW40NqwBp7ctmkSSM2jPE7pkQFCZxHWRXkglbRGnfybiocnDUdd4C6FulY1oX3SOdZmsnvRjWE57Lrcd/ASKBqOOSqsC01fzmaiA/y/TqjgSquoHSKJveH7QnO/rGZ6T3k6AZpOMkuEOb62JL6buPiqA+fxucgTTiXkqn39Yoy+eZBjWRNMAHfbj77OvQZQH1oKbz5DJBv7gbNscWi6mA8U4PqD2VW2lYlqD3kP86QrxI3qUPYMI/x78+jSN+ZGgHIg6tilWyksToCQqzcYBnCceNssX6pc5bYcy+Rz1VT/CJGmvjTR7n3dME1zjQN9w6lvZMcfOmQRIoJCs//qoRHjYe2O1UMuOreUNB43AFEphzM6a3QHJPeBmU830powrDqnFnoWMF1OaXwlbStuSCQbAm9vPnOEmTYRuSDmFwcpmWdV23C8yrKOy8F3YUC9z589NPOee7V90PNkS7MOvJtD5acvPSRUaJdsnOqKoWwJAPGQnAhkSTLFZj/D9ke3yzCxGLepphLIH9tSohTvan4j8/y3L2V9mDmwm/eIWRFtY13pU3v7CH43+WutbGkj0F7bFmqgxy/dDx0XoioGQ4PCdAxIuIgXvbdQ==</X509Certificate>
+                                </X509Data>
+                            </KeyInfo>
+                            <Object>
+                                <as:Timestamp>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</as:Timestamp>
+                            </Object>
+                        </Signature>
+                    </r:issuer>
+                </r:license>
+            </msrel:RelData>
+        </KeyInfo>
+    </Signature>
+</asmv1:assembly>
