@@ -4,7 +4,7 @@
   <description asmv2:iconFile="app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="EscMulti" version="2.0.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="EscMulti" version="2.1.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
     <commandLine file="EscMulti.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EscMulti.exe" size="219832">
-      <assemblyIdentity name="EscMulti" version="2.0.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="EscMulti" version="2.1.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qOdYDQaDyuipfJxfzGomSgDCoTA=</dsig:DigestValue>
+        <dsig:DigestValue>mG3KaD8Y7UBQ8vxCl3/o/AKrmgE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
-      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="1B44E1D426115821" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="304640">
+      <assemblyIdentity name="log4net" version="1.2.15.0" publicKeyToken="669E0DDF0BB1AA2A" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>gs3mWnUUwORl7g1QW+VsVmOf8LE=</dsig:DigestValue>
+        <dsig:DigestValue>nCc+Z1TvCPaQSIAsOi9hTxJkaB0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,7 +98,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FKWYOs9x5jtGpfiuikwo0jy9Ed0=</dsig:DigestValue>
+        <dsig:DigestValue>WtQtADWhu/7Ixu92OMDeSc0JT3U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>y/ywSN+f4IALmSXXFyksRtnlrEw=</dsig:DigestValue>
+        <dsig:DigestValue>LNOQrfAZ1Q1nVWYzVdar7dLGb5E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
