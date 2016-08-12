@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EscMulti.exe" size="219832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EscMulti.exe" size="221368">
       <assemblyIdentity name="EscMulti" version="2.1.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mG3KaD8Y7UBQ8vxCl3/o/AKrmgE=</dsig:DigestValue>
+        <dsig:DigestValue>POigb1QuHt4dKJVg+ZuIRZVD+dc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sense.RCPlus.AppUpdate.dll" size="76800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sense.RCPlus.AppUpdate.dll" size="77312">
       <assemblyIdentity name="Sense.RCPlus.AppUpdate" version="1.7.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WtQtADWhu/7Ixu92OMDeSc0JT3U=</dsig:DigestValue>
+        <dsig:DigestValue>4PPl/qDtESqie60F57fsWXx25bY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LNOQrfAZ1Q1nVWYzVdar7dLGb5E=</dsig:DigestValue>
+        <dsig:DigestValue>LqMMphfzn+W6CwiaTsmdo8KFD+E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
