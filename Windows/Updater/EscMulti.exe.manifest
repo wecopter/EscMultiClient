@@ -4,7 +4,7 @@
   <description asmv2:iconFile="app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="EscMulti" version="2.1.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="EscMulti" version="2.1.1.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
     <commandLine file="EscMulti.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EscMulti.exe" size="221368">
-      <assemblyIdentity name="EscMulti" version="2.1.0.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EscMulti.exe" size="367664">
+      <assemblyIdentity name="EscMulti" version="2.1.1.0" publicKeyToken="9521C23CE8B33FF7" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>POigb1QuHt4dKJVg+ZuIRZVD+dc=</dsig:DigestValue>
+        <dsig:DigestValue>0gh6NZp6ZL1f29KwnzT23xoQRPQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,7 +98,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4PPl/qDtESqie60F57fsWXx25bY=</dsig:DigestValue>
+        <dsig:DigestValue>OnT127PPFyTsq5yTa+bNY6lm5P0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LqMMphfzn+W6CwiaTsmdo8KFD+E=</dsig:DigestValue>
+        <dsig:DigestValue>C9itBpNUDl1PxuMS/HihjcGIvHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
