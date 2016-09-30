@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<motors version="1.0" xmlns="http://schemas.sensehobby.com/rcplus/2014">
+  <motor>
+    <id>0</id>
+    <name>General Motor</name>
+    <brand>-</brand>
+    <model>General</model>
+    <kv>2100-4000</kv>
+    <configuration>-</configuration>
+    <supportedUrl></supportedUrl>
+    <description>Parameters optimization for General motor.</description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+  <motor>
+    <id>1</id>
+    <name>GemFan 1306-3100KV</name>
+    <brand>GemFan</brand>
+    <model>1306-3100KV</model>
+    <kv>3100</kv>
+    <configuration>9N12P</configuration>
+    <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/a16901f2-e7a1-43f5-9395-a63500ec142a</supportedUrl>
+    <description>
+      Stator Diameter: 13mm
+      Stator Length: 6mm
+      Shaft Diameter: 2mm
+      Motor: 14x17mm
+      Idle current: 0.3
+      Max continue Power: 105
+      Weight: 12.5g
+    </description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+  <motor>
+    <id>2</id>
+    <name>GemFan 1806-2300KV</name>
+    <brand>GemFan</brand>
+    <model>1806-2300KV</model>
+    <kv>2300</kv>
+    <configuration>12N14P</configuration>
+    <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/bf0a35a2-3e3c-41dd-8a5f-a63500ecf5dc</supportedUrl>
+    <description>
+      Stator Diameter: 18mm
+      Stator Length: 6mm
+      Shaft Diameter: 2mm
+      Motor: 14x17mm
+      Idle current: 0.35
+      Max continue Power: 135
+      Weight: 20g
+    </description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+  <motor>
+    <id>3</id>
+    <name>GemFan 2205-2300KV</name>
+    <brand>GemFan</brand>
+    <model>2205-2300KV</model>
+    <kv>2300</kv>
+    <configuration>12N14P</configuration>
+    <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/19302d62-98b5-4e29-8c32-a63500ed7b1b</supportedUrl>
+    <description>
+      Stator Diameter: 22mm
+      Stator Length: 5mm
+      Shaft Diameter: 4mm
+      Motor: 27.5x29.3mm
+      Idle current: 0.5
+      Max continue Power: 340
+      Weight: 27.5g
+    </description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+  <motor>
+    <id>4</id>
+    <name>GemFan 2306-2200KV</name>
+    <brand>GemFan</brand>
+    <model>2306-2200KV</model>
+    <kv>2200</kv>
+    <configuration>12N14P</configuration>
+    <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/21181f91-37c2-4929-a6af-a63500ee0aef</supportedUrl>
+    <description>
+      Stator Diameter: 23mm
+      Stator Length: 6mm
+      Shaft Diameter: 4mm
+      Motor: 28.5x30.0mm
+      Idle current: 0.7
+      Max continue Power: 490
+      Weight: 30g
+    </description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+  <motor>
+    <id>5</id>
+    <name>GemFan RT2205-2300KV</name>
+    <brand>GemFan</brand>
+    <model>RT2205-2300KV</model>
+    <kv>2300</kv>
+    <configuration>12N14P</configuration>
+    <supportedUrl>http://www.gemfanhobby.com/Product/Main/En/a336bf4e-0808-4bef-980c-a63500eed8f7</supportedUrl>
+    <description>
+      Stator Diameter: 22mm
+      Stator Length: 5mm
+      Shaft Diameter: 4mm
+      Motor: 27.5x34.35mm
+      Idle current: 0.6
+      Max continue Power: 495
+      Weight: 30g
+    </description>
+    <settings>
+      <setting id="LogLevel">3</setting>
+    </settings>
+  </motor>
+</motors>
