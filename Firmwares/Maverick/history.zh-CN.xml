@@ -1,23 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <histories version="1.0" xmlns="http://schemas.sensehobby.com/rcplus/2014">
   <historyItem>
-    <version>2.1.0.0</version>
+    <version>2.2.0.0</version>
     <stage>Beta</stage>
     <description>初始版本。</description>
-    <fileName>maverick-2.1.0.bin</fileName>
-    <timestamp>2016/08/10 00:00</timestamp>
+    <fileName>maverick-2.2.0.bin</fileName>
+    <timestamp>2016/11/15 00:00</timestamp>
     <changeLogs>
       <log type="NoData">初始版本。</log>
-    </changeLogs>
-  </historyItem>
-  <historyItem>
-    <version>2.1.1.0</version>
-    <stage>Beta</stage>
-    <description></description>
-    <fileName>maverick-2.1.1.bin</fileName>
-    <timestamp>2016/08/22 00:00</timestamp>
-    <changeLogs>
-      <log type="Optimization">优化算法，电机运转更加平稳、流畅。</log>
     </changeLogs>
   </historyItem>
 </histories>
