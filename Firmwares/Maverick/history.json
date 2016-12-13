@@ -1,0 +1,25 @@
+{
+    "header":{
+        "messageId":"2ed0375e-6be7-4536-ad16-a0007e95acea",
+        "name":"VersionHistoryDocument",
+        "namespace":"Wecopter.EscMulti",
+        "payloadVersion":"1"
+    },
+    "payload":{
+        "histories":[
+            {
+                "version":"2.2.0.0",
+                "stage":"Beta",
+                "description":"First released version.",
+                "fileName":"maverick-2.2.0.bin",
+                "timestamp":"2016-11-15T00:00:00+08:00",
+                "changeLogs":[
+                    {
+                        "type":"NoData",
+                        "description":"First released version."
+                    }
+                ]
+            }
+        ]
+    }
+}
